@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:paddingLeft="@dimen/common_padding"
+    android:paddingRight="@dimen/common_padding_8"
+    android:paddingTop="@dimen/common_padding_8"
+    android:paddingBottom="@dimen/common_padding_8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toLeftOf="@+id/text_amount">
+        <TextView
+            android:id="@+id/text_child_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/common_text_primary"
+            android:textColor="@color/colorListTextPrimary"
+            android:text="@string/app_name"/>
+        <TextView
+            android:id="@+id/text_frost_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/common_text_secondary"
+            android:textColor="@color/colorListTextSecondary"
+            android:text="@string/app_name"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/common_text_primary"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:drawableRight="@drawable/ic_action_arrow"
+        android:textColor="@color/colorListTextPrimary"
+        android:text="@string/app_name"/>
+    
+</RelativeLayout>

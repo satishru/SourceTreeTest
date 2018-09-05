@@ -1,0 +1,78 @@
+{
+  "account_data": [
+    {
+      "name": "Banking",
+      "amount": 18556.56,
+      "currency_symbol": "$",
+      "account_child": [
+        {
+          "name_child": "Check 1a",
+          "frost_id": "Frost #1834",
+          "amount": 18556.56,
+          "currency_symbol": "$"
+        },
+        {
+          "name_child": "Check 2a",
+          "frost_id": "Frost #1834",
+          "amount": 18556.56,
+          "currency_symbol": "$"
+        },
+        {
+          "name_child": "Check 3a",
+          "frost_id": "Frost #1734",
+          "amount": 18556.56,
+          "currency_symbol": "$"
+        },
+        {
+          "name_child": "Check 4a",
+          "frost_id": "Frost #1254",
+          "amount": 18556.56,
+          "currency_symbol": "$"
+        },
+        {
+          "name_child": "Check 5a",
+          "frost_id": "Frost #1244",
+          "amount": 18556.56,
+          "currency_symbol": "$"
+        }
+      ]
+    },
+    {
+      "name": "Loans & LOC",
+      "amount": 16556.56,
+      "currency_symbol": "$",
+      "account_child": [
+        {
+          "name_child": "Check 1b",
+          "frost_id": "Frost #1235",
+          "amount": 16556.56,
+          "currency_symbol": "$"
+        },
+        {
+          "name_child": "Check 2b",
+          "frost_id": "Frost #1236",
+          "amount": 16556.56,
+          "currency_symbol": "$"
+        },
+        {
+          "name_child": "Check 3b",
+          "frost_id": "Frost #1237",
+          "amount": 16556.56,
+          "currency_symbol": "$"
+        },
+        {
+          "name_child": "Check 4b",
+          "frost_id": "Frost #1238",
+          "amount": 16556.56,
+          "currency_symbol": "$"
+        },
+        {
+          "name_child": "Check 5b",
+          "frost_id": "Frost #1239",
+          "amount": 16556.56,
+          "currency_symbol": "$"
+        }
+      ]
+    }
+  ]
+}

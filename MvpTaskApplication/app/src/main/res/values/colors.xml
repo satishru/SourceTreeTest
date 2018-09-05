@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4081</color> <!-- 3F51B5-->
+    <color name="colorPrimaryDark">#FF4081</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorListParent">#E6E6E6</color>
+
+    <color name="colorDivider">#303030</color>
+    <color name="colorListTextPrimary">#80000000</color>
+    <color name="colorListTextSecondary">#7cb2bf </color>
+</resources>
