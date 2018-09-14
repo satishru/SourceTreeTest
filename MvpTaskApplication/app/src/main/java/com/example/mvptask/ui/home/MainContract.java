@@ -5,6 +5,7 @@ import com.example.mvptask.ui.base.BaseView;
 
 import java.util.List;
 
+//
 public interface MainContract {
 
     interface MainView extends BaseView {
