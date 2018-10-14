@@ -10,6 +10,9 @@ public abstract class BaseFragment extends Fragment {
         Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
     }
 
+    /**
+     * Call back implemented in BaseActivity and overriden in subclass of BaseActivity
+     */
     public interface FragmentCallback {
 
         void setTitle(String title);
